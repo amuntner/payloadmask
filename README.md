@@ -3,7 +3,7 @@
 Payload mask tool to edit payload lists to try bypass web application firewall
 
                              
-![Alt text](http://www.juryblog.com/wp-content/uploads/2008/09/wolf-sheep-s_dom058.jpg)
+![Alt text](https://hystar.files.wordpress.com/2010/07/wold-sheep-clothing2.jpg)
 
 
 Read the docs
