@@ -54,13 +54,13 @@ void init_banner_mask()
  "--out :	Output of new payload list\n\n"
  "--tamper : Payload tamper to try bypass filters\n   Choice one option :\n    encode64 : to encode payload to 64 base \n    randcase : to use lower and upper case random position in string\n"
  "    urlencode :  converts characters into a format that can be transmitted over the Internet, percent encoding\n    double_urlencode : converts payload two times with urlencode\n"
-"    spaces2comment:  change spaces ' ' to comment '/**/'\n    unmagicquote: change apostrophe to a multi-byte \%bf\%27 \n"
+"    spaces2comment:  change spaces ' ' to comment '/**/'\n    unmagicquote: change apostrophe to a multi-byte  \n"
 "    apostrophe2nullencode: change apostrophe to illegal double unicode counterpart\n    rand_comment: to use random comment '/**/' position in payload string\n"
 "    rand_space: write random ' ' blank spaces\n"
 YELLOW
 YELLOW
 LAST
-"\, Example: ./payloadmask -p payloads/xss.txt -o test_new.txt -t randcase\n...\n"
+"\n  Example: ./payloadmask -p payloads/xss.txt -o test_new.txt -t randcase\n...\n"
  "Coded by Cooler_\n c00f3r[at]gmail[dot]com\n "
  );
  puts(LAST);
