@@ -1,45 +1,11 @@
-##0d1n
+##payload mask
 =====
-![Alt text](https://github.com/CoolerVoid/0d1n/blob/master/doc/images/overview1.png)
-0d1n is a tool for automating customized attacks against web applications.
-
-
-#You can do: 
-
-> *brute force passwords in auth forms
-
-> *diretory disclosure ( use PATH list to brute, and find HTTP status code )
-
-> *test list on input to find SQL Injection and XSS vulnerabilities 
-
-> other things...
+Payload mask tool to edit payload lists to try bypass web application firewall
 
                              
-![Alt text](https://github.com/CoolerVoid/0d1n/blob/master/doc/images/tables.png)
-
-## to run:
-
-require libcurl-dev or libcurl-devel(on rpm linux based)
-
-$ git clone https://github.com/CoolerVoid/0d1n/
-
- 
-need libcurl to run
-
-  
-$ sudo apt-get install libcurl-dev
-
-if rpm distro
-
-$ sudo yum install libcurl-devel
-
-$ make
-
-$./0d1n
-
+![Alt text](http://www.juryblog.com/wp-content/uploads/2008/09/wolf-sheep-s_dom058.jpg)
 
 
 Read the docs
-
 
 # payloadmask
