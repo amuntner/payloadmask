@@ -42,7 +42,7 @@
   \frametitle{Introduction}
   Software Information:
   \begin{itemize}
-  \item  Payload mask is a Open Source Tool to generate payload list to bypass Web Application Firewall, you can use a lot list of encodes and techniques to convert your payload list. 
+  \item  Payload mask is a Open Source Tool to generate payload list to try bypass Web Application Firewall, you can use a lot list of encodes and techniques to convert your payload list. 
   \item  Payload mask held by GPL v3 license: https://github.com/CoolerVoid/payloadmask/blob/master/LICENSE.txt
   \end{itemize}
 \end{frame}
@@ -81,6 +81,28 @@
   \item unzip master.zip; cd payloadmask-master; make; ./payloadmask
   \end{itemize}
 \end{frame}
+
+
+
+\begin{frame}
+  \frametitle{The Overview}
+  \begin{figure}[]    
+    \centering
+    \includegraphics[width=14cm]{images/codeview.png} 
+  \end{figure}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Explain}
+  WAF stands for Web Application Firewall. It is widely used nowadays to detect and defend SQL Injections and XSS...
+  \begin{itemize}
+  \item You can use comments to bypass WAF: http://www.site.com/index.php?page\_id=-15 /*!UNION*/ /*!SELECT*/ 0,1,2,3... 
+  \item You can also change the Case of the Command: http://www.site.com/index.php?page\_id=-15 UnIoN sELecT 0,1,2,3...
+  \item You can combine methods: http://www.site.com/index.php?page\_id=-15 /*!uNIOn*/ /*!sElECt*/ 0,1,2,3….
+  \end{itemize}
+\end{frame}
+
 
 \begin{frame}
   \frametitle{The End}
