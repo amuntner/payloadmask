@@ -57,6 +57,8 @@ void init_banner_mask()
 "    spaces2comment:  change spaces ' ' to comment '/**/'\n    unmagicquote: change apostrophe to a multi-byte  \n"
 "    apostrophe2nullencode: change apostrophe to illegal double unicode counterpart\n    rand_comment: to use random comment '/**/' position in payload string\n"
 "    rand_space: write random ' ' blank spaces\n"
+"    replace_keywords: replace especial words, SELECT to SELselectECT etc...\n"
+YELLOW
 YELLOW
 YELLOW
 LAST

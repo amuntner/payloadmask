@@ -63,6 +63,8 @@ void chomp(char * str)
 }
 
 
+
+
 char *replace(char *instring,char *old,char *new)
 { 
 	int instring_size=strlen(instring),new_size=strlen(new),old_size=strlen(old),out_size=instring_size+1,count=0;
@@ -114,6 +116,7 @@ char *replace(char *instring,char *old,char *new)
 
 	return out;
 }
+
 
 
 

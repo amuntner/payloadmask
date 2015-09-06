@@ -123,6 +123,16 @@ void convert_payload(char * NameFile,char *output, char *tamper)
 
 			xfree((void **)&newline);
 		}
+
+
+		if(strstr(tamper,"replace_keywords"))
+		{
+			char *newline=replace_keywords(line);
+			WriteFile(output,newline);
+
+			xfree((void **)&newline);
+		}
+		
 		
 
 	}
