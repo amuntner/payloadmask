@@ -314,7 +314,12 @@ char *replace_keywords(char *str)
 		char *tmp=replace(out,strs[num],strs2[num]);
 		mem_size=strlen(tmp)+1;
 		out=xrealloc(out,sizeof(char)*mem_size);
-		strncpy(out,tmp,mem_size-1);	
+		strncpy(out,tmp,mem_size-1);
+		if(tmp != NULL)
+		{
+			free(tmp);
+			tmp=NULL;
+		}
 		num--;
 	} while(num!=-1);
 
