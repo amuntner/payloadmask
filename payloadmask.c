@@ -1,6 +1,6 @@
 /*
 Author:Antonio Costa aka " Cooler_ "
-contact: c00f3r[at]gmail[dot]com
+contact: coolerlair[at]gmail[dot]com
 
 
     Copyright (C) 2015 payload mask authors,
@@ -63,7 +63,7 @@ YELLOW
 YELLOW
 LAST
 "\n  Example: ./payloadmask -p payloads/xss.txt -o test_new.txt -t randcase\n...\n"
- "Coded by Cooler_\n c00f3r[at]gmail[dot]com\n "
+ "Coded by Cooler_\n coolerlair[at]gmail[dot]com\n "
  );
  puts(LAST);
 }
